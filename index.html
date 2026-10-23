@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#102b4e">
+  <meta name="description" content="A Philippine K–12-aligned self-study hub for Ateneo de Naga University college entrance exam preparation.">
+  <title>ACEE Master Reviewer | Study Hub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">A</div>
+      <div><strong>ACEE MASTER</strong><span>REVIEWER HUB</span></div>
+    </div>
+    <div class="sidebar-label">STUDY SPACE</div>
+    <nav id="main-nav" aria-label="Main navigation">
+      <button class="nav-item active" data-view="dashboard"><span>▦</span> Dashboard</button>
+      <button class="nav-item" data-view="research"><span>◎</span> ACEE research</button>
+      <button class="nav-item" data-view="english"><span>Aa</span> English & Language</button>
+      <button class="nav-item" data-view="reading"><span>▤</span> Reading comprehension</button>
+      <button class="nav-item" data-view="math"><span>∑</span> Mathematics</button>
+      <button class="nav-item" data-view="science"><span>⚛</span> General science</button>
+      <button class="nav-item" data-view="reasoning"><span>◇</span> Abstract & logical reasoning</button>
+      <button class="nav-item" data-view="mocks"><span>▣</span> Mock examinations</button>
+      <button class="nav-item" data-view="videos"><span>▶</span> Video library</button>
+      <button class="nav-item" data-view="studyplan"><span>◷</span> Study plans</button>
+      <button class="nav-item" data-view="tracker"><span>✓</span> Progress tracker</button>
+      <button class="nav-item" data-view="formula"><span>π</span> Formula sheet</button>
+      <button class="nav-item" data-view="glossary"><span>≡</span> Glossary</button>
+    </nav>
+    <div class="sidebar-foot"><span class="status-dot"></span> Self-study mode <small>Progress saves in this browser</small></div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <div class="breadcrumb">ACEE PREPARATION <span>/</span> <strong id="current-section">Dashboard</strong></div>
+      <button class="small-btn" id="reset-progress" title="Clear locally saved progress">Reset progress</button>
+    </header>
+    <div class="content" id="app" tabindex="-1"></div>
+    <footer><span>ACEE MASTER REVIEWER</span><span>Independent preparation resource · Not an official Ateneo de Naga University publication</span></footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
